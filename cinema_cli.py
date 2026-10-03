@@ -214,7 +214,7 @@ class MediaCLI:
 
     def main_loop(self):
         while True:
-            console.print("\n[bold blue]===== F2MC Media Downloader =====[/bold blue]")
+            console.print("\n[bold blue]===== Cinema Terminal =====[/bold blue]")
 
             media_type = inquirer.select(
                 message="Select media type:",
